@@ -1,0 +1,30 @@
+{
+  "en": {
+    "footer": "Copyright © :year - All right reserved by Joshua Mclean.",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "projects": "Projects",
+    "skills": "Skills",
+    "meta_description": "Hello! I'm Joshua Mclean, a Computer Engineering student with experience in Fullstack development. Explore my portfolio to discover my featured projects and skills in PHP, Java, JavaScript, Laravel, React, and more. Contact me to collaborate on your next project!",
+    "view_project": "View Project",
+    "view_repo": "View Repository",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "more_projects": "For more projects visit my GitHub profile"
+  },
+  "es": {
+    "footer": "Copyright © :year - Todos los derechos reservados por Joshua Mclean.",
+    "portfolio": "Portafolio",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "meta_description": "¡Hola! Soy Joshua Mclean, estudiante de Ingeniería en Computación con experiencia en desarrollo Fullstack. Explora mi portafolio para conocer mis proyectos destacados y habilidades en PHP, Java, JavaScript, Laravel, React y más. ¡Contáctame para colaborar en tu próximo proyecto!",
+    "view_project": "Ver el proyecto",
+    "view_repo": "Ver Repositorio",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "more_projects": "Para más proyectos visita mi perfil de GitHub"
+  }
+}

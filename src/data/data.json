@@ -1,0 +1,416 @@
+{
+  "en": {
+    "name": "Joshua Mclean",
+    "profession": "Full Stack Developer",
+    "description": "Hello! I'm Joshua Mclean, a Computer Engineering student with experience in Fullstack development. Explore my portfolio to discover my featured projects and skills in PHP, Java, JavaScript, Laravel, React, and more. Contact me to collaborate on your next project!",
+    "projects": {
+      "title": "Featured Projects",
+      "description": "Check out some of my recent projects that showcase my skills and experience. I'm always looking for new and exciting projects to work on. Let's connect and discuss how I can help you build your next great project!",
+      "projects": [
+        {
+          "title": "JMFramework",
+          "description": "JMFramework is a PHP framework designed to facilitate the development of web applications following the Model View Controller (MVC) design pattern. With a focus on simplicity and ease of learning, JMFramework provides a single entry point, built-in libraries and a default configuration of styles using TailwindCSS.",
+          "image": "/projects/jmframework.png",
+          "url": "http://jmprojects.atwebpages.com/",
+          "github": "https://github.com/JoshuaMc1/JMFramework",
+          "badges": [
+            "PHP",
+            "Twig",
+            "Tailwind CSS"
+          ]
+        },
+        {
+          "title": "BitShort",
+          "description": "BitShort is an innovative URL shortening web app designed to quickly and easily shorten long links into more manageable formats. Built using JMFramework, BitShort offers an intuitive interface and exceptional performance, making it simple for users to shorten URLs efficiently. With BitShort, users can manage their links effectively, streamlining the process and enhancing productivity.",
+          "image": "/projects/bitshort.png",
+          "url": "https://github.com/JoshuaMc1/BitShort",
+          "github": "https://github.com/JoshuaMc1/BitShort",
+          "badges": [
+            "JMFramework",
+            "MySQL",
+            "Tailwind CSS",
+            "DaisyUI",
+            "PHP"
+          ]
+        },
+        {
+          "title": "JMShop",
+          "description": "JMShop is a visual demonstration website showcasing skills in HTML, CSS, and JavaScript. It simulates an E-commerce interface, focusing on design and user experience. Although it does not include purchasing functionality, JMShop serves as a showcase of front-end development skills, highlighting a clean and user-friendly design.",
+          "image": "/projects/jmshop.png",
+          "url": "https://jmshop.zeabur.app/",
+          "github": "https://github.com/JoshuaMc1/JMShop",
+          "badges": [
+            "Bootstrap 5",
+            "HTML5",
+            "CSS3",
+            "Javascript"
+          ]
+        },
+        {
+          "title": "PSGenerator",
+          "description": "PSGenerator is a simple tool built in React with Tailwind CSS and DaisyUI to generate random passwords with various customization options. It offers a user-friendly interface for generating secure passwords quickly and easily. With PSGenerator, you can specify the length, include uppercase and lowercase letters, numbers, and special characters to create passwords tailored to your needs.",
+          "image": "/projects/psgenerator.png",
+          "url": "https://psgenerator.netlify.app/",
+          "github": "https://github.com/JoshuaMc1/PSGenerator",
+          "badges": [
+            "React",
+            "Tailwind CSS",
+            "DaisyUI",
+            "Javascript"
+          ]
+        },
+        {
+          "title": "Hangman Game",
+          "description": "Hangman game built with Node.js, Express, React, Vite, TailwindCSS, DaisyUI, MySQL, and Json Web Token. Features login, leaderboard, word adding, hangman images, lives based on difficulty, timed questions, hints, and letter input.",
+          "image": "/projects/hangman.png",
+          "url": "https://github.com/JoshuaMc1/Hangman-Game-React",
+          "github": "https://github.com/JoshuaMc1/Hangman-Game-React",
+          "badges": [
+            "Node.js",
+            "Express",
+            "React",
+            "Vite",
+            "Tailwind CSS",
+            "DaisyUI",
+            "MySQL",
+            "Json Web Token"
+          ]
+        },
+        {
+          "title": "Personal AniList",
+          "description": "Personal AniList is a web app where you can create lists of your favorite anime and characters. Built with React and Laravel with Sanctum, it offers a seamless experience for anime enthusiasts.",
+          "image": "/projects/pal.png",
+          "url": "https://personalanilist.netlify.app/",
+          "github": "https://github.com/JoshuaMc1/PAL-Website",
+          "badges": [
+            "React",
+            "Laravel",
+            "Sanctum",
+            "Tailwind CSS",
+            "Flowbite",
+            "MySQL"
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "title": "My Skills",
+      "description": "I have a diverse set of skills that I use to build high-quality web applications.",
+      "frontend": [
+        {
+          "title": "HTML",
+          "icon": "/icons/frontend/html.png"
+        },
+        {
+          "title": "CSS",
+          "icon": "/icons/frontend/css.png"
+        },
+        {
+          "title": "Javascript",
+          "icon": "/icons/frontend/js.png"
+        },
+        {
+          "title": "React",
+          "icon": "/icons/frontend/react.png"
+        },
+        {
+          "title": "Tailwind CSS",
+          "icon": "/icons/frontend/tailwind.png"
+        },
+        {
+          "title": "DaisyUI",
+          "icon": "/icons/frontend/daisy.png"
+        },
+        {
+          "title": "Bootstrap 5",
+          "icon": "/icons/frontend/bootstrap.png"
+        }
+      ],
+      "backend": [
+        {
+          "title": "PHP",
+          "icon": "/icons/backend/php.png"
+        },
+        {
+          "title": "Laravel",
+          "icon": "/icons/backend/laravel.png"
+        },
+        {
+          "title": "Java",
+          "icon": "/icons/backend/java.png"
+        },
+        {
+          "title": "Node.js",
+          "icon": "/icons/backend/nodejs.png"
+        }
+      ],
+      "databases": [
+        {
+          "title": "MySQL",
+          "icon": "/icons/databases/mysql.png"
+        },
+        {
+          "title": "MongoDB",
+          "icon": "/icons/databases/mongodb.png"
+        },
+        {
+          "title": "Microsoft SQL Server",
+          "icon": "/icons/databases/mssql.png"
+        },
+        {
+          "title": "Firebase",
+          "icon": "/icons/databases/firebase.png"
+        },
+        {
+          "title": "SQLite",
+          "icon": "/icons/databases/sqlite.png"
+        },
+        {
+          "title": "MariaDB",
+          "icon": "/icons/databases/mariadb.png"
+        }
+      ],
+      "tools": [
+        {
+          "title": "Git",
+          "icon": "/icons/tools/git.png"
+        },
+        {
+          "title": "GitHub",
+          "icon": "/icons/tools/github.png"
+        },
+        {
+          "title": "Docker",
+          "icon": "/icons/tools/docker.png"
+        },
+        {
+          "title": "Visual Studio Code",
+          "icon": "/icons/tools/vscode.png"
+        },
+        {
+          "title": "Postman",
+          "icon": "/icons/tools/postman.png"
+        },
+        {
+          "title": "Amazon Web Services",
+          "icon": "/icons/tools/aws.png"
+        },
+        {
+          "title": "Adobe Xd",
+          "icon": "/icons/tools/xd.png"
+        },
+        {
+          "title": "Bash",
+          "icon": "/icons/tools/bash.png"
+        }
+      ]
+    }
+  },
+  "es": {
+    "name": "Joshua Mclean",
+    "profession": "Desarrollador Full Stack",
+    "description": "¡Hola! Soy Joshua Mclean, estudiante de Ingeniería en Computación con experiencia en desarrollo Fullstack. Explora mi portafolio para conocer mis proyectos destacados y habilidades en PHP, Java, JavaScript, Laravel, React y más. ¡Contáctame para colaborar en tu próximo proyecto!",
+    "projects": {
+      "title": "Proyectos Destacados",
+      "description": "Echa un vistazo a algunos de mis proyectos recientes que muestran mis habilidades y experiencia. Siempre estoy buscando nuevos y emocionantes proyectos en los que trabajar. Pongámonos en contacto y hablemos de cómo puedo ayudarte a construir tu próximo gran proyecto.",
+      "projects": [
+        {
+          "title": "JMFramework",
+          "description": "JMFramework es un framework PHP diseñado para facilitar el desarrollo de aplicaciones web siguiendo el patrón de diseño Modelo Vista Controlador (MVC). Con un enfoque en la simplicidad y la facilidad de aprendizaje, JMFramework proporciona un solo punto de entrada, librerías incorporadas y una configuración predeterminada de estilos utilizando TailwindCSS.",
+          "image": "/projects/jmframework.png",
+          "url": "http://jmprojects.atwebpages.com/",
+          "github": "https://github.com/JoshuaMc1/JMFramework",
+          "badges": [
+            "PHP",
+            "Twig",
+            "Tailwind CSS"
+          ]
+        },
+        {
+          "title": "BitShort",
+          "description": "BitShort es una innovadora aplicación web de acortamiento de URL diseñada para acortar rápida y fácilmente enlaces largos a formatos más manejables. Creada con JMFramework, BitShort ofrece una interfaz intuitiva y un rendimiento excepcional, lo que facilita a los usuarios acortar URLs de forma eficiente. Con BitShort, los usuarios pueden gestionar sus enlaces de forma eficaz, agilizando el proceso y mejorando la productividad.",
+          "image": "/projects/bitshort.png",
+          "url": "https://github.com/JoshuaMc1/BitShort",
+          "github": "https://github.com/JoshuaMc1/BitShort",
+          "badges": [
+            "JMFramework",
+            "MySQL",
+            "Tailwind CSS",
+            "DaisyUI",
+            "PHP"
+          ]
+        },
+        {
+          "title": "JMShop",
+          "description": "JMShop es un sitio web de demostración visual que muestra las habilidades en HTML, CSS y JavaScript. Simula una interfaz de comercio electrónico, centrándose en el diseño y la experiencia del usuario. Aunque no incluye la funcionalidad de compra, JMShop sirve como escaparate de las habilidades de desarrollo front-end, destacando un diseño limpio y fácil de usar.",
+          "image": "/projects/jmshop.png",
+          "url": "https://jmshop.zeabur.app/",
+          "github": "https://github.com/JoshuaMc1/JMShop",
+          "badges": [
+            "Bootstrap 5",
+            "HTML5",
+            "CSS3",
+            "Javascript"
+          ]
+        },
+        {
+          "title": "PSGenerator",
+          "description": "PSGenerator es una sencilla herramienta construida en React con Tailwind CSS y DaisyUI para generar contraseñas aleatorias con varias opciones de personalización. Ofrece una interfaz fácil de usar para generar contraseñas seguras de forma rápida y sencilla. Con PSGenerator, puede especificar la longitud, incluir letras mayúsculas y minúsculas, números y caracteres especiales para crear contraseñas adaptadas a sus necesidades.",
+          "image": "/projects/psgenerator.png",
+          "url": "https://psgenerator.netlify.app/",
+          "github": "https://github.com/JoshuaMc1/PSGenerator",
+          "badges": [
+            "React",
+            "Tailwind CSS",
+            "DaisyUI",
+            "Javascript"
+          ]
+        },
+        {
+          "title": "Juego del Ahorcado",
+          "description": "Juego del ahorcado construido con Node.js, Express, React, Vite, TailwindCSS, DaisyUI, MySQL y Json Web Token. Cuenta con inicio de sesión, tabla de clasificación, adición de palabras, imágenes del ahorcado, vidas basadas en la dificultad, preguntas cronometradas, pistas y entrada de letras.",
+          "image": "/projects/hangman.png",
+          "url": "https://github.com/JoshuaMc1/Hangman-Game-React",
+          "github": "https://github.com/JoshuaMc1/Hangman-Game-React",
+          "badges": [
+            "Node.js",
+            "Express",
+            "React",
+            "Vite",
+            "Tailwind CSS",
+            "DaisyUI",
+            "MySQL",
+            "Json Web Token"
+          ]
+        },
+        {
+          "title": "Personal AniList",
+          "description": "Personal AniList es una aplicación web donde puedes crear listas de tus anime y personajes favoritos. Construida con React y Laravel con Sanctum, ofrece una experiencia fluida para los entusiastas del anime.",
+          "image": "/projects/pal.png",
+          "url": "https://personalanilist.netlify.app/",
+          "github": "https://github.com/JoshuaMc1/PAL-Website",
+          "badges": [
+            "React",
+            "Laravel",
+            "Sanctum",
+            "Tailwind CSS",
+            "Flowbite",
+            "MySQL"
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "title": "Mis Habilidades",
+      "description": "Tengo un conjunto diverso de habilidades que uso para construir aplicaciones web de alta calidad.",
+      "frontend": [
+        {
+          "title": "HTML",
+          "icon": "/icons/frontend/html.png"
+        },
+        {
+          "title": "CSS",
+          "icon": "/icons/frontend/css.png"
+        },
+        {
+          "title": "Javascript",
+          "icon": "/icons/frontend/js.png"
+        },
+        {
+          "title": "React",
+          "icon": "/icons/frontend/react.png"
+        },
+        {
+          "title": "Tailwind CSS",
+          "icon": "/icons/frontend/tailwind.png"
+        },
+        {
+          "title": "DaisyUI",
+          "icon": "/icons/frontend/daisy.png"
+        },
+        {
+          "title": "Bootstrap 5",
+          "icon": "/icons/frontend/bootstrap.png"
+        }
+      ],
+      "backend": [
+        {
+          "title": "PHP",
+          "icon": "/icons/backend/php.png"
+        },
+        {
+          "title": "Laravel",
+          "icon": "/icons/backend/laravel.png"
+        },
+        {
+          "title": "Java",
+          "icon": "/icons/backend/java.png"
+        },
+        {
+          "title": "Node.js",
+          "icon": "/icons/backend/nodejs.png"
+        }
+      ],
+      "databases": [
+        {
+          "title": "MySQL",
+          "icon": "/icons/databases/mysql.png"
+        },
+        {
+          "title": "MongoDB",
+          "icon": "/icons/databases/mongodb.png"
+        },
+        {
+          "title": "Microsoft SQL Server",
+          "icon": "/icons/databases/mssql.png"
+        },
+        {
+          "title": "Firebase",
+          "icon": "/icons/databases/firebase.png"
+        },
+        {
+          "title": "SQLite",
+          "icon": "/icons/databases/sqlite.png"
+        },
+        {
+          "title": "MariaDB",
+          "icon": "/icons/databases/mariadb.png"
+        }
+      ],
+      "tools": [
+        {
+          "title": "Git",
+          "icon": "/icons/tools/git.png"
+        },
+        {
+          "title": "GitHub",
+          "icon": "/icons/tools/github.png"
+        },
+        {
+          "title": "Docker",
+          "icon": "/icons/tools/docker.png"
+        },
+        {
+          "title": "Visual Studio Code",
+          "icon": "/icons/tools/vscode.png"
+        },
+        {
+          "title": "Postman",
+          "icon": "/icons/tools/postman.png"
+        },
+        {
+          "title": "Amazon Web Services",
+          "icon": "/icons/tools/aws.png"
+        },
+        {
+          "title": "Adobe Xd",
+          "icon": "/icons/tools/xd.png"
+        },
+        {
+          "title": "Bash",
+          "icon": "/icons/tools/bash.png"
+        }
+      ]
+    }
+  }
+}
