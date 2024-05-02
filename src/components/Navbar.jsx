@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import useScroll from "../hooks/useScroll";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = ({ getTranslation, lang, handleChangeLang }) => {
   const isScrolled = useScroll();
@@ -56,7 +56,9 @@ const Navbar = ({ getTranslation, lang, handleChangeLang }) => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">{getTranslation("portfolio")}</a>
+          <Link to={"/"} className="btn btn-ghost text-xl">
+            {getTranslation("portfolio")}
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

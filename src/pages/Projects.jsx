@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { Suspense, useEffect, useState } from "react";
 import useJsonDatabase from "../hooks/useJsonDatabase";
 import { useOutletContext } from "react-router-dom";
@@ -27,12 +26,7 @@ const Projects = () => {
         </div>
       }
     >
-      <motion.section
-        className="w-full py-12 md:py-24 lg:py-32"
-        id="projects"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      >
+      <section className="w-full py-12 md:py-24 lg:py-32" id="projects">
         <div className="container px-4 md:px-6">
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -58,7 +52,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-      </motion.section>
+      </section>
     </Suspense>
   );
 };

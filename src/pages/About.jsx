@@ -1,8 +1,7 @@
-import { motion } from "framer-motion";
 import useJsonDatabase from "../hooks/useJsonDatabase";
 import { useOutletContext } from "react-router-dom";
 import { Suspense, useEffect, useState } from "react";
-import profile from "../assets/profile2.png";
+import profile from "../assets/profile.png";
 
 const About = () => {
   const { lang } = useOutletContext();
@@ -27,12 +26,7 @@ const About = () => {
         </div>
       }
     >
-      <motion.section
-        id="about"
-        className="w-full py-12 md:py-24 lg:py-32"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      >
+      <section id="about" className="w-full py-12 md:py-24 lg:py-32">
         <div className="flex flex-col-reverse items-center justify-center gap-6 px-4 md:px-6 lg:flex-row-reverse lg:gap-14">
           <div className="space-y-4">
             <h1 className="text-center text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-left lg:text-7xl">
@@ -51,7 +45,7 @@ const About = () => {
             src={profile}
           />
         </div>
-      </motion.section>
+      </section>
     </Suspense>
   );
 };
