@@ -1,8 +1,8 @@
 {
   "en": {
     "name": "Joshua Mclean",
-    "profession": "Full Stack Developer",
-    "description": "Hello! I'm Joshua Mclean, a Computer Engineering student with experience in Fullstack development. Explore my portfolio to discover my featured projects and skills in PHP, Java, JavaScript, Laravel, React, and more. Contact me to collaborate on your next project!",
+    "profession": "Backend Developer",
+    "description": "Hello! I'm Joshua Mclean, a Computer Engineering student with experience in backend development. Explore my portfolio to discover my featured projects and skills in PHP, Java, JavaScript, Laravel, React, and more. Contact me to collaborate on your next project!",
     "projects": {
       "title": "Featured Projects",
       "description": "Check out some of my recent projects that showcase my skills and experience. I'm always looking for new and exciting projects to work on. Let's connect and discuss how I can help you build your next great project!",
@@ -208,8 +208,8 @@
   },
   "es": {
     "name": "Joshua Mclean",
-    "profession": "Desarrollador Full Stack",
-    "description": "¡Hola! Soy Joshua Mclean, estudiante de Ingeniería en Computación con experiencia en desarrollo Fullstack. Explora mi portafolio para conocer mis proyectos destacados y habilidades en PHP, Java, JavaScript, Laravel, React y más. ¡Contáctame para colaborar en tu próximo proyecto!",
+    "profession": "Desarrollador Backend",
+    "description": "¡Hola! Soy Joshua Mclean, estudiante de Ingeniería en Computación con experiencia en desarrollo backend. Explora mi portafolio para conocer mis proyectos destacados y habilidades en PHP, Java, JavaScript, Laravel, React y más. ¡Contáctame para colaborar en tu próximo proyecto!",
     "projects": {
       "title": "Proyectos Destacados",
       "description": "Echa un vistazo a algunos de mis proyectos recientes que muestran mis habilidades y experiencia. Siempre estoy buscando nuevos y emocionantes proyectos en los que trabajar. Pongámonos en contacto y hablemos de cómo puedo ayudarte a construir tu próximo gran proyecto.",

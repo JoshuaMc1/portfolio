@@ -19,6 +19,8 @@ const useLang = () => {
     document.documentElement.lang = lang;
     document.querySelector("meta[name=description]").content =
       translations[lang].meta_description;
+    document.querySelector("meta[property='og:description']").content =
+      translations[lang].meta_description;
   }, [lang]);
 
   const getTranslation = (key) => {

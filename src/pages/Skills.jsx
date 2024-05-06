@@ -43,7 +43,7 @@ const Skills = () => {
               <div className="mt-4 flex flex-row flex-wrap items-center justify-center gap-4">
                 {data?.skills?.frontend.map((skill, index) => (
                   <img
-                    className="w-16 md:w-20"
+                    className="w-16 cursor-pointer transition duration-200 ease-in hover:scale-105 md:w-20"
                     key={index}
                     src={skill.icon}
                     alt={skill.title}
@@ -59,7 +59,7 @@ const Skills = () => {
               <div className="mt-4 flex flex-row flex-wrap items-center justify-center gap-4">
                 {data?.skills?.backend.map((skill, index) => (
                   <img
-                    className="w-16 md:w-20"
+                    className="w-16 cursor-pointer transition duration-200 ease-in hover:scale-105 md:w-20"
                     key={index}
                     src={skill.icon}
                     alt={skill.title}
@@ -75,7 +75,7 @@ const Skills = () => {
               <div className="mt-4 flex flex-row flex-wrap items-center justify-center gap-4">
                 {data?.skills?.databases.map((skill, index) => (
                   <img
-                    className="w-16 md:w-20"
+                    className="w-16 cursor-pointer transition duration-200 ease-in hover:scale-105 md:w-20"
                     key={index}
                     src={skill.icon}
                     alt={skill.title}
@@ -91,7 +91,7 @@ const Skills = () => {
               <div className="mt-4 flex flex-row flex-wrap items-center justify-center gap-4">
                 {data?.skills?.tools.map((skill, index) => (
                   <img
-                    className="w-16 md:w-20"
+                    className="w-16 cursor-pointer transition duration-200 ease-in hover:scale-105 md:w-20"
                     key={index}
                     src={skill.icon}
                     alt={skill.title}
