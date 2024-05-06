@@ -1,10 +1,11 @@
 import useJsonDatabase from "../hooks/useJsonDatabase";
 import { useOutletContext } from "react-router-dom";
 import { Suspense, useEffect, useState } from "react";
-import profile from "../assets/profile.png";
+import profile from "../assets/profile2.png";
+import cv from "../assets/Joshua_David_Mclean_Escaleras.pdf";
 
 const About = () => {
-  const { lang } = useOutletContext();
+  const { lang, getTranslation } = useOutletContext();
   const { getObjectData, isLoading } = useJsonDatabase();
 
   const [data, setData] = useState({});
@@ -38,6 +39,11 @@ const About = () => {
             <p className="max-w-[600px] text-center md:text-xl lg:text-left">
               {data?.description}
             </p>
+            <div className="flex justify-center md:justify-start">
+              <a className="btn btn-primary btn-wide" href={cv} download>
+                {getTranslation("download")}
+              </a>
+            </div>
           </div>
           <img
             alt={`Profile of ${data?.name}`}

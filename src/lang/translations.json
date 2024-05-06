@@ -11,7 +11,8 @@
     "view_repo": "View Repository",
     "frontend": "Frontend",
     "backend": "Backend",
-    "more_projects": "For more projects visit my GitHub profile"
+    "more_projects": "For more projects visit my GitHub profile",
+    "download": "Download CV"
   },
   "es": {
     "footer": "Copyright © :year - Todos los derechos reservados por Joshua Mclean.",
@@ -25,6 +26,7 @@
     "view_repo": "Ver Repositorio",
     "frontend": "Frontend",
     "backend": "Backend",
-    "more_projects": "Para más proyectos visita mi perfil de GitHub"
+    "more_projects": "Para más proyectos visita mi perfil de GitHub",
+    "download": "Descargar CV"
   }
 }

@@ -6,11 +6,11 @@ const Project = ({ project }) => {
 
   return (
     <div className="card bg-base-300 shadow-xl">
-      <figure className="px-10 pt-10">
+      <figure className="px-10 pt-10 transition duration-200 ease-in hover:scale-105">
         <img
           src={project.image}
           alt={`Project ${project.title}`}
-          className="h-[200px] w-full rounded-md"
+          className="h-[200px] w-[400px] rounded-md"
         />
       </figure>
       <div className="card-body gap-4">
